@@ -1,1 +1,1 @@
-/:repo/*  https://cdn.jsdelivr.net/gh/:repo/:splat  200
+/:repo/*  https://cdn.jsdelivr.net/gh/ehanahamed/:repo/:splat  200
