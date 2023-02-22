@@ -2,11 +2,18 @@
   "rewrites": [
     {
       "source": "/:repo/:path*",
-      "destination": "https://raw.githack.com/ehanahamed/:repo/main/:path*"
-    },
+      "destination": "https://raw.githubusercontent.com/ehanahamed/:repo/main/:path*"
+    }
+  ]
+  "headers": [
     {
-      "source": "/:repo@:version/:path*",
-      "destination": "https://rawcdn.githack.com/ehanahamed/:repo/:version/:path*"
+      "source": "*.css",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/css"
+        }
+      ]
     }
   ]
 }
