@@ -3,6 +3,10 @@
     {
       "source": "/:repo/:path*",
       "destination": "https://raw.githack.com/ehanahamed/:repo/main/:path*"
+    },
+    {
+      "source": "/:repo@:version/:path*",
+      "destination": "https://rawcdn.githack.com/ehanahamed/:repo/:version/:path*"
     }
   ]
 }
