@@ -7,7 +7,7 @@
   ],
   "headers": [
     {
-      "source": "*.css",
+      "source": "/*.css",
       "headers": [
         {
           "key": "Content-Type",
