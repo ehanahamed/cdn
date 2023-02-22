@@ -1,8 +1,0 @@
-[[redirects]]
-  from = "/:repo/*"
-  to = "https://raw.githubusercontent.com/ehanahamed/:repo/main/:splat"
-  status = 200
-[[headers]]
-  for = "/*.css"
-  [headers.values]
-    Content-Type = "text/css"
