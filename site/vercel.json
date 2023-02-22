@@ -7,7 +7,7 @@
   ],
   "headers": [
     {
-      "source": "/(*.css)",
+      "source": "/:path*.css",
       "headers": [
         {
           "key": "Content-Type",
