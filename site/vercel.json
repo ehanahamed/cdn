@@ -4,16 +4,5 @@
       "source": "/:repo/:path*",
       "destination": "https://raw.githubusercontent.com/ehanahamed/:repo/main/:path*"
     }
-  ],
-  "headers": [
-    {
-      "source": "/:path*.css",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/css"
-        }
-      ]
-    }
   ]
 }
