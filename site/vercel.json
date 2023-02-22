@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:repo/:path*",
-      "destination": "https://cdn.statically.io/gh/ehanahamed/:repo/main/:path*"
+      "destination": "https://raw.githack.com/ehanahamed/:repo/main/:path*"
     }
   ]
 }
