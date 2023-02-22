@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:repo/:path*",
-      "destination": "https://cdn.jsdelivr.net/gh/ehanahamed/:repo@latest/:path*"
+      "destination": "https://cdn.statically.io/gh/ehanahamed/:repo/main/:path*"
     }
   ]
 }
