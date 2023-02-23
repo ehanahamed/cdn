@@ -1,4 +1,3 @@
-const https = require("https");
 const http = require("http");
 
 http.createServer(
@@ -7,4 +6,3 @@ http.createServer(
     response.end();
   }
 ).listen(process.env.PORT || 3000);
-
