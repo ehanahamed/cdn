@@ -1,8 +1,8 @@
 const http = require("http");
-
 http.createServer(
   function (request, response) {
-    response.write(request);
+    console.log("wow");
+    response.write("wow");
     response.end();
   }
 ).listen(process.env.PORT || 3000);
