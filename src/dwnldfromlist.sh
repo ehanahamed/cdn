@@ -1,7 +1,7 @@
 #!/bin/bash
 # cdn.ehan.dev
 # 
-# dnldfromlist.sh - Download each file from list of paths
+# dwnldfromlist.sh - Download each file from list of paths
 
 while read -r line; do
 # execute for each line of input file
